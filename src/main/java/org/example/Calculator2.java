@@ -13,7 +13,7 @@ public class Calculator2 {
         System.out.println("What is your annual interest rate?");
         double a = scanner.nextDouble();
 
-        System.out.println("Number of years");
+        System.out.println("Number of years?");
         double t = scanner.nextDouble();
 
         double r = a / 100;
