@@ -20,6 +20,7 @@ public class Calculator1 {
 
         double r = (i / 12) / 100;
         double n = y * 12;
+
         double M = P * (r * Math.pow(1 + r, n) / (Math.pow(1 + r, n) - 1));
 
         double totalInterest = (M * n) - P;
